@@ -21,6 +21,6 @@ spec:
     spec:
       containers:
         - name: fb-deploy-cont
-          image: devopshubg333/batch16d:pythonimg
+          image: devopshubg333/batch16d:fb_httpd
           ports:
             - containerPort: 80
